@@ -1,0 +1,8 @@
+name: GitHub Actions brain-games
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Linting
+      - run: make lint
