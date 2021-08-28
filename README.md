@@ -6,3 +6,6 @@
 
 ### Github Actions Badge
 ![Github Actions Status](https://github.com/ValentinaFediakova/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)
+
+### Asciinema
+https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x
