@@ -1,3 +1,3 @@
-import startGame from "../src/index.js";
+import startGame from '../src/index.js';
 
-startGame('brain-games')
+startGame('brain-games');

@@ -1,9 +1,9 @@
-import { gameWelcome, askQuestionHandle, putAnswerHandle } from './cli.js'
-import { brainEvenGame } from './games/brain-even.js'
-import { brainCalcGame } from './games/brain-calc.js'
+import { gameWelcome, askQuestionHandle, putAnswerHandle } from './cli.js';
+import brainEvenGame from './games/brain-even.js';
+import brainCalcGame from './games/brain-calc.js';
 
 const startGame = (gameName) => {
-  const participantName = gameWelcome()
+  const participantName = gameWelcome();
 
   if (gameName === 'brain-games') {
     return;
@@ -13,7 +13,6 @@ const startGame = (gameName) => {
   let correctAnswer;
 
   for (let i = 0; i < 3; i += 1) {
-
     if (gameName === 'brain-even') {
       brainEvenGame();
       const brainEvenData = brainEvenGame();
@@ -22,7 +21,7 @@ const startGame = (gameName) => {
     }
 
     if (gameName === 'brain-calc') {
-      brainCalcGame()
+      brainCalcGame();
       const brainCalcData = brainCalcGame();
       currentQuestion = brainCalcData.question;
       correctAnswer = brainCalcData.correctAnswer;
@@ -33,7 +32,7 @@ const startGame = (gameName) => {
 
     if (correctAnswer !== answer) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${participantName}`);
-      return
+      return;
     }
 
     if (correctAnswer === answer) {
@@ -43,8 +42,7 @@ const startGame = (gameName) => {
         console.log('Correct!');
       }
     }
-
   }
-}
+};
 
 export default startGame;

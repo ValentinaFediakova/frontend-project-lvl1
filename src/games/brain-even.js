@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-export const brainEvenGame = () => {
-  let questionNumber;
+const brainEvenGame = () => {
+  // let questionNumber;
   let correctAnswer;
-  let randomNumberUntilHundred;
+  // let randomNumberUntilHundred;
 
-  randomNumberUntilHundred = Math.floor(Math.random() * 99) + 1;
-  questionNumber = randomNumberUntilHundred;
+  const randomNumberUntilHundred = Math.floor(Math.random() * 99) + 1;
+  const questionNumber = randomNumberUntilHundred;
 
   if (questionNumber % 2 === 0) {
     correctAnswer = 'yes';
@@ -17,7 +17,8 @@ export const brainEvenGame = () => {
 
   return {
     question: questionNumber,
-    correctAnswer
-  }
+    correctAnswer,
+  };
+};
 
-}
+export default brainEvenGame;
