@@ -10,7 +10,7 @@ export const gameWelcome = () => {
 
 export const exploreRules = (rulesText) => {
   console.log(`${rulesText}`);
-}
+};
 
 export const askQuestionHandle = (questionText) => {
   console.log(`Question: ${questionText}`);

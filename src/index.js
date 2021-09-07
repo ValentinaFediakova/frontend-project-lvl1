@@ -1,4 +1,6 @@
-import { gameWelcome, askQuestionHandle, putAnswerHandle, exploreRules } from './cli.js';
+import {
+  gameWelcome, askQuestionHandle, putAnswerHandle, exploreRules,
+} from './cli.js';
 import brainEvenGame from './games/brain-even.js';
 import brainCalcGame from './games/brain-calc.js';
 
@@ -16,13 +18,13 @@ const startGame = (gameName) => {
   if (gameName === 'brain-even') {
     const brainEvenData = brainEvenGame();
     rulesText = brainEvenData.rulesText;
-    exploreRules(rulesText)
+    exploreRules(rulesText);
   }
 
   if (gameName === 'brain-calc') {
     const brainCalcData = brainCalcGame();
     rulesText = brainCalcData.rulesText;
-    exploreRules(rulesText)
+    exploreRules(rulesText);
   }
 
   for (let i = 0; i < 3; i += 1) {
