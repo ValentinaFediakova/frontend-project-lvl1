@@ -3,6 +3,7 @@ import {
 } from './cli.js';
 import brainEvenGame from './games/brain-even.js';
 import brainCalcGame from './games/brain-calc.js';
+import brainGcdGame from './games/brain-gcd.js'
 
 const startGame = (gameName) => {
   const participantName = gameWelcome();
@@ -27,6 +28,12 @@ const startGame = (gameName) => {
     exploreRules(rulesText);
   }
 
+  if (gameName === 'brain-gcd') {
+    const brainGcdData = brainGcdGame();
+    rulesText = brainGcdData.rulesText;
+    exploreRules(rulesText);
+  }
+
   for (let i = 0; i < 3; i += 1) {
     if (gameName === 'brain-even') {
       brainEvenGame();
@@ -40,6 +47,13 @@ const startGame = (gameName) => {
       const brainCalcData = brainCalcGame();
       currentQuestion = brainCalcData.question;
       correctAnswer = brainCalcData.correctAnswer;
+    }
+
+    if (gameName === 'brain-gcd') {
+      brainGcdGame()
+      const brainGcdData = brainGcdGame();
+      currentQuestion = brainGcdData.question;
+      correctAnswer = brainGcdData.correctAnswer;
     }
 
     askQuestionHandle(currentQuestion);
