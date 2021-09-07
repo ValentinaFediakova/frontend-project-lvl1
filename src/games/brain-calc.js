@@ -2,6 +2,7 @@
 import _ from 'lodash';
 
 const brainCalcGame = () => {
+  const rulesText = 'What is the result of the expression?';
   let correctAnswer = 0;
 
   const operators = ['*', '-', '+'];
@@ -27,6 +28,7 @@ const brainCalcGame = () => {
   const stringCorrectAnswer = correctAnswer.toString();
 
   return {
+    rulesText,
     question: questionExpression,
     correctAnswer: stringCorrectAnswer,
   };

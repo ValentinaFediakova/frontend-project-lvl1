@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 
 const brainEvenGame = () => {
-  // let questionNumber;
+  const rulesText = 'Answer "yes" if the number is even, otherwise answer "no".'
   let correctAnswer;
-  // let randomNumberUntilHundred;
 
   const randomNumberUntilHundred = Math.floor(Math.random() * 99) + 1;
   const questionNumber = randomNumberUntilHundred;
@@ -16,6 +15,7 @@ const brainEvenGame = () => {
   }
 
   return {
+    rulesText,
     question: questionNumber,
     correctAnswer,
   };
