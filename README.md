@@ -9,3 +9,6 @@
 
 ### Asciinema
 https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x
+
+### Asciinema for 3 games
+https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl
