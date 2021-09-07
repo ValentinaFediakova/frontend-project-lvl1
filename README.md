@@ -12,3 +12,6 @@ https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x
 
 ### Asciinema for 3 games
 https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl
+
+### Asciinema for brain-gcd
+https://asciinema.org/a/0U8nDn8608SzVGVAkhgyqal6X
