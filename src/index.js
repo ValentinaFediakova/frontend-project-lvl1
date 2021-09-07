@@ -3,7 +3,7 @@ import {
 } from './cli.js';
 import brainEvenGame from './games/brain-even.js';
 import brainCalcGame from './games/brain-calc.js';
-import brainGcdGame from './games/brain-gcd.js'
+import brainGcdGame from './games/brain-gcd.js';
 
 const startGame = (gameName) => {
   const participantName = gameWelcome();
@@ -50,7 +50,7 @@ const startGame = (gameName) => {
     }
 
     if (gameName === 'brain-gcd') {
-      brainGcdGame()
+      brainGcdGame();
       const brainGcdData = brainGcdGame();
       currentQuestion = brainGcdData.question;
       correctAnswer = brainGcdData.correctAnswer;
