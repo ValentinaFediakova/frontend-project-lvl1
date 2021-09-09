@@ -4,7 +4,7 @@ import {
 import brainEvenGame from './games/brain-even.js';
 import brainCalcGame from './games/brain-calc.js';
 import brainGcdGame from './games/brain-gcd.js';
-import brainProgressionGame from './games/brain-progression.js'
+import brainProgressionGame from './games/brain-progression.js';
 
 const startGame = (gameName) => {
   const participantName = gameWelcome();
