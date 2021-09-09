@@ -5,6 +5,7 @@ import brainEvenGame from './games/brain-even.js';
 import brainCalcGame from './games/brain-calc.js';
 import brainGcdGame from './games/brain-gcd.js';
 import brainProgressionGame from './games/brain-progression.js';
+import brainPrimeGame from './games/brain-prime.js'
 
 const startGame = (gameName) => {
   const participantName = gameWelcome();
@@ -41,6 +42,12 @@ const startGame = (gameName) => {
     exploreRules(rulesText);
   }
 
+  if (gameName === 'brain-prime') {
+    const brainPrimeData = brainPrimeGame();
+    rulesText = brainPrimeData.rulesText;
+    exploreRules(rulesText);
+  }
+
   for (let i = 0; i < 3; i += 1) {
     if (gameName === 'brain-even') {
       brainEvenGame();
@@ -65,6 +72,12 @@ const startGame = (gameName) => {
       const brainProgressionData = brainProgressionGame();
       currentQuestion = brainProgressionData.question;
       correctAnswer = brainProgressionData.correctAnswer;
+    }
+
+    if (gameName === 'brain-prime') {
+      const brainPrimeData = brainPrimeGame();
+      currentQuestion = brainPrimeData.question;
+      correctAnswer = brainPrimeData.correctAnswer;
     }
 
     askQuestionHandle(currentQuestion);
