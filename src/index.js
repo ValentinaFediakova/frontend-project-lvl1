@@ -84,7 +84,8 @@ const startGame = (gameName) => {
     const answer = putAnswerHandle();
 
     if (correctAnswer !== answer) {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${participantName}`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${participantName}!`);
       return;
     }
 
