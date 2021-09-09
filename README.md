@@ -15,3 +15,6 @@ https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl
 
 ### Asciinema for brain-gcd
 https://asciinema.org/a/0U8nDn8608SzVGVAkhgyqal6X
+
+### Asciinema for brain-progression
+https://asciinema.org/a/xValDZfWa6JfpJBI9xbLthj84
