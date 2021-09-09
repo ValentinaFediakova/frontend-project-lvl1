@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const brainEvenGame = () => {
   const rulesText = 'Answer "yes" if the number is even, otherwise answer "no".';
   let correctAnswer;

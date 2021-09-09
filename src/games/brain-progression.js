@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const brainProgressionGame = () => {
   const rulesText = 'What number is missing in the progression?';
   let correctAnswer;

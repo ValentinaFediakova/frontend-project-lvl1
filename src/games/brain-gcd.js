@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const brainGcdGame = () => {
   const rulesText = 'Find the greatest common divisor of given numbers.';
   let modulo;
