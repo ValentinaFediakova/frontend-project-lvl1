@@ -11,13 +11,13 @@
 [![asciicast](https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x.svg)](https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x)
 
 ### Asciinema for 3 games
-https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl
+[![asciicast](https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl.svg)](https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl)
 
 ### Asciinema for brain-gcd
-https://asciinema.org/a/0U8nDn8608SzVGVAkhgyqal6X
+[![asciicast](https://asciinema.org/a/0U8nDn8608SzVGVAkhgyqal6X.svg)](https://asciinema.org/a/0U8nDn8608SzVGVAkhgyqal6X)
 
 ### Asciinema for brain-progression
-https://asciinema.org/a/xValDZfWa6JfpJBI9xbLthj84
+[![asciicast](https://asciinema.org/a/xValDZfWa6JfpJBI9xbLthj84.svg)](https://asciinema.org/a/xValDZfWa6JfpJBI9xbLthj84)
 
 ### Asciinema for brain-prime
-https://asciinema.org/a/vYF9Gebl17d3zbdYtkAs65exy
+[![asciicast](https://asciinema.org/a/vYF9Gebl17d3zbdYtkAs65exy.svg)](https://asciinema.org/a/vYF9Gebl17d3zbdYtkAs65exy)
