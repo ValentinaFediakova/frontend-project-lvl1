@@ -8,7 +8,7 @@
 ![Github Actions Status](https://github.com/ValentinaFediakova/frontend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)
 
 ### Asciinema
-https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x
+[![asciicast](https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x.svg)](https://asciinema.org/a/2AD2QNuO7hbZWKMSe4AqMWG0x)
 
 ### Asciinema for 3 games
 https://asciinema.org/a/OgkRduajpeSs9OvnBE0DQIRxl
